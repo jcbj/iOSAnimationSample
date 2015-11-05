@@ -154,6 +154,29 @@
                                             <segue destination="I58-7C-nkZ" kind="push" id="fo7-tO-asI"/>
                                         </connections>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="UaT-gq-8Tc" style="IBUITableViewCellStyleDefault" id="UzE-W8-tvM">
+                                        <rect key="frame" x="0.0" y="328" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="UzE-W8-tvM" id="7mn-aC-vVX">
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Easing" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="UaT-gq-8Tc">
+                                                    <rect key="frame" x="15" y="0.0" width="270" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <animations/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <animations/>
+                                        </tableViewCellContentView>
+                                        <animations/>
+                                        <connections>
+                                            <segue destination="2Qr-Rb-LxT" kind="push" id="g0r-C6-lJF"/>
+                                        </connections>
+                                    </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>
@@ -367,6 +390,54 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6NT-2l-e5M" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1086" y="4060"/>
+        </scene>
+        <!--Easing View Controller-->
+        <scene sceneID="KdW-Bg-D6I">
+            <objects>
+                <viewController id="2Qr-Rb-LxT" customClass="EasingViewController" customModule="iOSAnimationSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RHo-WQ-2XR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="j6Z-be-cJt">
+                                <rect key="frame" x="20" y="80" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.36291480520000002" green="0.77102078630000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="Fr5-j7-TG6">
+                                <rect key="frame" x="20" y="190" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="JQf-cm-AmG">
+                                <rect key="frame" x="20" y="300" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.68235296010000002" green="0.90196084980000002" blue="0.46666669849999998" alpha="1" colorSpace="deviceRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="kct-uS-Pmc">
+                                <rect key="frame" x="20" y="410" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.89524269099999998" green="0.87717968930000001" blue="0.21313909240000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="yN1-L0-oFs"/>
+                    <connections>
+                        <outlet property="blueSquare" destination="j6Z-be-cJt" id="c0N-Eh-7a2"/>
+                        <outlet property="greenSquare" destination="JQf-cm-AmG" id="JNz-f8-2eF"/>
+                        <outlet property="redSquare" destination="Fr5-j7-TG6" id="3Za-Lx-Deb"/>
+                        <outlet property="yellowSquare" destination="kct-uS-Pmc" id="cNA-JO-XF3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wdQ-xT-0BK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1086" y="4679"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="fzq-T9-t2D">

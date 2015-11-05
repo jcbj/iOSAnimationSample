@@ -14,6 +14,7 @@
 		49048CE41BD682980046D246 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49048CE21BD682980046D246 /* LaunchScreen.storyboard */; };
 		49048CEC1BD684760046D246 /* PositionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49048CEB1BD684760046D246 /* PositionViewController.swift */; };
 		498E97301BEA4F31009805E6 /* RepeatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498E972F1BEA4F31009805E6 /* RepeatViewController.swift */; };
+		49A0581C1BEB88AD000DEC6E /* EasingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A0581B1BEB88AD000DEC6E /* EasingViewController.swift */; };
 		49DA72E71BD68C3800B27E0C /* OpacityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DA72E61BD68C3800B27E0C /* OpacityViewController.swift */; };
 		49DA72E91BD6928A00B27E0C /* ScaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DA72E81BD6928A00B27E0C /* ScaleViewController.swift */; };
 		49DA72EB1BD6961800B27E0C /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DA72EA1BD6961800B27E0C /* ColorViewController.swift */; };
@@ -30,6 +31,7 @@
 		49048CE51BD682980046D246 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49048CEB1BD684760046D246 /* PositionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PositionViewController.swift; sourceTree = "<group>"; };
 		498E972F1BEA4F31009805E6 /* RepeatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepeatViewController.swift; sourceTree = "<group>"; };
+		49A0581B1BEB88AD000DEC6E /* EasingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasingViewController.swift; sourceTree = "<group>"; };
 		49DA72E61BD68C3800B27E0C /* OpacityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpacityViewController.swift; sourceTree = "<group>"; };
 		49DA72E81BD6928A00B27E0C /* ScaleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaleViewController.swift; sourceTree = "<group>"; };
 		49DA72EA1BD6961800B27E0C /* ColorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				49048CDB1BD682980046D246 /* ViewController.swift */,
 				498E972F1BEA4F31009805E6 /* RepeatViewController.swift */,
 				49048CDD1BD682980046D246 /* Main.storyboard */,
+				49A0581B1BEB88AD000DEC6E /* EasingViewController.swift */,
 				49DA72EC1BD7C7AE00B27E0C /* RotationViewController.swift */,
 				49048CEB1BD684760046D246 /* PositionViewController.swift */,
 				49048CE01BD682980046D246 /* Assets.xcassets */,
@@ -154,6 +157,7 @@
 			files = (
 				49048CEC1BD684760046D246 /* PositionViewController.swift in Sources */,
 				49DA72E91BD6928A00B27E0C /* ScaleViewController.swift in Sources */,
+				49A0581C1BEB88AD000DEC6E /* EasingViewController.swift in Sources */,
 				49048CDC1BD682980046D246 /* ViewController.swift in Sources */,
 				49DA72E71BD68C3800B27E0C /* OpacityViewController.swift in Sources */,
 				49DA72ED1BD7C7AE00B27E0C /* RotationViewController.swift in Sources */,
